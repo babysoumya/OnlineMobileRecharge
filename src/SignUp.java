@@ -12,5 +12,5 @@ public class SignUp {
     private JButton confirmButton;
     private JPanel Registration;
 
-    
+
 }
