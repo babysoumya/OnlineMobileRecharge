@@ -8,7 +8,9 @@ public class SignUp {
     private JPasswordField ConfirmPassword;
     private JPasswordField Password;
     private JCheckBox showPasswordCheckBox;
-    private JCheckBox showPasswordCheckBox1;
+    private JCheckBox showCPasswordCheckBox1;
     private JButton confirmButton;
     private JPanel Registration;
+
+    
 }
