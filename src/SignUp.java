@@ -1,4 +1,6 @@
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class SignUp {
     private JTextField nametextfield;
@@ -11,6 +13,21 @@ public class SignUp {
     private JCheckBox showCPasswordCheckBox1;
     private JButton confirmButton;
     private JPanel Registration;
+    private JButton backButton;
+    private JFrame signUpFrame;
 
+    public SignUp() {
+        signUpFrame = new JFrame("SignUp");
+        signUpFrame.setContentPane(Registration);
+        signUpFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        signUpFrame.pack();
+        signUpFrame.setVisible(true);
 
+        confirmButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
+    }
 }
